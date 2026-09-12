@@ -1,0 +1,551 @@
+/* =========================================
+   EXPERIENCE DETAIL PAGE
+========================================= */
+
+.experience-detail-container {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: auto;
+    padding-left: var(--page-padding);
+    padding-right: var(--page-padding);
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.experience-detail-hero {
+    padding: 110px 0 95px;
+    border-bottom: 1px solid var(--border);
+}
+
+.experience-detail-label {
+    margin-bottom: 28px;
+
+    color: var(--blue);
+
+    font-family: var(--font-tech);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.experience-detail-title {
+    max-width: 950px;
+
+    color: var(--text);
+
+    font-size: clamp(58px, 8vw, 105px);
+    line-height: 0.95;
+    letter-spacing: -5px;
+    font-weight: 700;
+}
+
+.experience-detail-role {
+    margin-top: 18px;
+
+    color: var(--blue);
+
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.experience-detail-lead {
+    max-width: 720px;
+
+    margin-top: 35px;
+
+    color: var(--text-secondary);
+
+    font-size: 17px;
+    line-height: 1.85;
+}
+
+
+/* =========================================
+   META
+========================================= */
+
+.experience-detail-meta {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 35px;
+
+    max-width: 900px;
+
+    margin-top: 65px;
+    padding-top: 25px;
+
+    border-top: 1px solid var(--border);
+}
+
+.experience-meta-item {
+    display: flex;
+    flex-direction: column;
+
+    gap: 7px;
+}
+
+.experience-meta-item span {
+    color: var(--text-secondary);
+
+    font-family: var(--font-tech);
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+
+.experience-meta-item strong {
+    color: var(--text);
+
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+
+/* =========================================
+   CONTENT SECTIONS
+========================================= */
+
+.experience-detail-section {
+    padding: 100px 0 0;
+}
+
+.experience-detail-section:last-of-type {
+    padding-bottom: 130px;
+}
+
+
+/* =========================================
+   SECTION CONTAINER
+========================================= */
+
+.experience-detail-section
+.experience-detail-container {
+    display: grid;
+    grid-template-columns: 180px minmax(0, 850px);
+
+    gap: 55px;
+}
+
+
+/* =========================================
+   SECTION NUMBER
+========================================= */
+
+.experience-section-number {
+    padding-top: 5px;
+
+    color: var(--blue);
+
+    font-family: var(--font-tech);
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+}
+
+
+/* =========================================
+   SECTION CONTENT
+========================================= */
+
+.experience-section-content {
+    max-width: 850px;
+}
+
+.experience-section-content h2 {
+    max-width: 760px;
+
+    margin-bottom: 28px;
+
+    color: var(--text);
+
+    font-size: clamp(32px, 4vw, 48px);
+    line-height: 1.08;
+    letter-spacing: -2px;
+    font-weight: 700;
+}
+
+.experience-section-content p {
+    max-width: 760px;
+
+    margin-bottom: 20px;
+
+    color: var(--text-secondary);
+
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+.experience-section-content p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* =========================================
+   CORE TOOLS
+========================================= */
+
+.experience-tools-line {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+    gap: 15px;
+
+    max-width: 760px;
+
+    margin-top: 38px;
+    padding-top: 20px;
+
+    border-top: 1px solid var(--border);
+}
+
+.experience-tools-label {
+    color: var(--blue);
+
+    font-family: var(--font-tech);
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.experience-tools-value {
+    color: var(--text-secondary);
+
+    font-family: var(--font-tech);
+    font-size: 9px;
+    letter-spacing: 0.3px;
+}
+
+.experience-tools-value span {
+    margin: 0 5px;
+
+    color: var(--blue);
+}
+
+
+/* =========================================
+   PROFESSIONAL ENGINEERING WORK
+========================================= */
+
+.experience-project-list {
+    max-width: 850px;
+
+    margin-top: 45px;
+
+    border-top: 1px solid var(--border);
+}
+
+.experience-project-item {
+    display: grid;
+    grid-template-columns: 80px minmax(0, 1fr);
+
+    gap: 30px;
+
+    padding: 35px 0;
+
+    border-bottom: 1px solid var(--border);
+}
+
+.experience-project-number {
+    color: var(--blue);
+
+    font-family: var(--font-tech);
+
+    font-size: 12px;
+    font-weight: 600;
+
+    letter-spacing: 1px;
+}
+
+.experience-project-label {
+    margin-bottom: 12px;
+
+    color: var(--blue);
+
+    font-family: var(--font-tech);
+
+    font-size: 9px;
+    font-weight: 600;
+
+    letter-spacing: 1.1px;
+}
+
+.experience-project-content h3 {
+    color: var(--text);
+
+    font-size: 28px;
+
+    line-height: 1.15;
+
+    letter-spacing: -1px;
+
+    font-weight: 700;
+}
+
+.experience-project-content p {
+    max-width: 620px;
+
+    margin-top: 14px;
+    margin-bottom: 0;
+
+    color: var(--text-secondary);
+
+    font-size: 14px;
+
+    line-height: 1.8;
+}
+
+.experience-project-link {
+    display: inline-flex;
+    align-items: center;
+
+    gap: 10px;
+
+    margin-top: 22px;
+
+    color: var(--text);
+
+    font-family: var(--font-tech);
+
+    font-size: 9px;
+    font-weight: 600;
+
+    letter-spacing: 0.8px;
+
+    text-transform: uppercase;
+
+    text-decoration: none;
+
+    transition: color 0.2s ease;
+}
+
+.experience-project-link i {
+    color: var(--blue);
+
+    font-size: 9px;
+
+    transition: transform 0.2s ease;
+}
+
+.experience-project-link:hover {
+    color: var(--blue);
+}
+
+.experience-project-link:hover i {
+    transform: translateX(4px);
+}
+
+
+/* =========================================
+   PROJECT INTRO
+========================================= */
+
+.experience-project-intro {
+    max-width: 650px !important;
+
+    margin-bottom: 0 !important;
+}
+
+
+/* =========================================
+   CERTIFICATE
+========================================= */
+
+.certificate-placeholder {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 760px;
+
+    margin-top: 38px;
+    padding: 28px 30px;
+
+    border: 1px solid var(--border);
+
+    background: var(--surface);
+}
+
+.certificate-placeholder-label {
+    margin-bottom: 8px;
+
+    color: var(--blue);
+
+    font-family: var(--font-tech);
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+.certificate-placeholder-text {
+    color: var(--text-secondary);
+
+    font-family: var(--font-tech);
+    font-size: 11px;
+    letter-spacing: 0.3px;
+}
+
+
+/* =========================================
+   EXPERIENCE TAKEAWAY
+========================================= */
+
+.experience-takeaway-section {
+    padding-bottom: 130px;
+}
+
+
+/* =========================================
+   DARK MODE
+========================================= */
+
+.dark-mode .certificate-placeholder {
+    background: var(--surface);
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 750px) {
+
+    .experience-detail-hero {
+        padding: 90px 0 75px;
+    }
+
+    .experience-detail-label {
+        margin-bottom: 22px;
+
+        font-size: 10px;
+    }
+
+    .experience-detail-title {
+        font-size: 58px;
+
+        letter-spacing: -4px;
+    }
+
+    .experience-detail-role {
+        margin-top: 14px;
+
+        font-size: 19px;
+    }
+
+    .experience-detail-lead {
+        font-size: 15px;
+    }
+
+
+    /* META */
+
+    .experience-detail-meta {
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 28px 20px;
+
+        margin-top: 50px;
+    }
+
+
+    /* SECTIONS */
+
+    .experience-detail-section {
+        padding: 80px 0 0;
+    }
+
+    .experience-detail-section:last-of-type {
+        padding-bottom: 100px;
+    }
+
+    .experience-detail-section
+    .experience-detail-container {
+        display: block;
+    }
+
+
+    /* SECTION NUMBER */
+
+    .experience-section-number {
+        margin-bottom: 22px;
+
+        font-size: 9px;
+    }
+
+
+    /* HEADINGS */
+
+    .experience-section-content h2 {
+        font-size: 34px;
+
+        letter-spacing: -1.5px;
+    }
+
+    .experience-section-content p {
+        font-size: 14px;
+
+        line-height: 1.85;
+    }
+
+
+    /* TOOLS */
+
+    .experience-tools-line {
+        display: block;
+
+        margin-top: 32px;
+    }
+
+    .experience-tools-label {
+        display: block;
+
+        margin-bottom: 10px;
+    }
+
+    .experience-tools-value {
+        line-height: 2;
+    }
+
+
+    /* PROFESSIONAL WORK */
+
+    .experience-project-item {
+        grid-template-columns: 40px minmax(0, 1fr);
+
+        gap: 15px;
+
+        padding: 28px 0;
+    }
+
+    .experience-project-number {
+        font-size: 10px;
+    }
+
+    .experience-project-content h3 {
+        font-size: 24px;
+
+        letter-spacing: -0.8px;
+    }
+
+    .experience-project-content p {
+        font-size: 13px;
+    }
+
+
+    /* CERTIFICATE */
+
+    .certificate-placeholder {
+        padding: 22px;
+    }
+
+
+    /* TAKEAWAY */
+
+    .experience-takeaway-section {
+        padding-bottom: 100px;
+    }
+}

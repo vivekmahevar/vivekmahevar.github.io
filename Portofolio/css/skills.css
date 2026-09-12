@@ -1,0 +1,380 @@
+/* =========================================
+   SKILLS PAGE
+========================================= */
+
+.skills-container {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: auto;
+    padding-left: var(--page-padding);
+    padding-right: var(--page-padding);
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.skills-hero {
+    padding: 110px 0 90px;
+    border-bottom: 1px solid var(--border);
+}
+
+.skills-label {
+    margin-bottom: 28px;
+
+    color: var(--blue);
+
+    font-family: var(--font-tech);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.skills-title {
+    color: var(--text);
+
+    font-size: clamp(64px, 9vw, 115px);
+    line-height: 0.92;
+    letter-spacing: -6px;
+    font-weight: 700;
+}
+
+.skills-introduction {
+    max-width: 620px;
+
+    margin-top: 32px;
+
+    color: var(--text-secondary);
+
+    font-size: 16px;
+    line-height: 1.85;
+}
+
+
+/* =========================================
+   SKILLS SECTION
+========================================= */
+
+.skills-section {
+    padding: 100px 0 130px;
+}
+
+
+/* =========================================
+   CATEGORY
+========================================= */
+
+.skill-category {
+    padding: 0 0 95px;
+    margin-bottom: 95px;
+
+    border-bottom: 1px solid var(--border);
+}
+
+.skill-category-last {
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+    border-bottom: none;
+}
+
+
+/* =========================================
+   CATEGORY HEADER
+========================================= */
+
+.skill-category-header {
+    display: grid;
+    grid-template-columns: 55px minmax(0, 1fr);
+
+    gap: 25px;
+
+    margin-bottom: 45px;
+}
+
+.skill-number {
+    padding-top: 4px;
+
+    color: var(--text-secondary);
+
+    font-family: var(--font-tech);
+    font-size: 10px;
+    letter-spacing: 0.8px;
+}
+
+.skill-category-label {
+    margin-bottom: 12px;
+
+    color: var(--blue);
+
+    font-family: var(--font-tech);
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+.skill-category-header h2 {
+    color: var(--text);
+
+    font-size: clamp(32px, 4vw, 48px);
+    line-height: 1.05;
+    letter-spacing: -2px;
+    font-weight: 700;
+}
+
+.skill-category-header h2 span {
+    color: var(--blue);
+}
+
+
+/* =========================================
+   CORE SKILLS
+========================================= */
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    border-top: 1px solid var(--border);
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    min-height: 70px;
+
+    padding: 15px 20px 15px 0;
+
+    border-bottom: 1px solid var(--border);
+}
+
+.skill-item:nth-child(even) {
+    padding-left: 20px;
+    border-left: 1px solid var(--border);
+}
+
+.skill-item span {
+    color: var(--text-secondary);
+
+    font-family: var(--font-tech);
+    font-size: 8px;
+    letter-spacing: 0.6px;
+}
+
+.skill-item strong {
+    color: var(--text);
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* =========================================
+   TOOL CARDS
+========================================= */
+
+.skill-tools {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    border-top: 1px solid var(--border);
+}
+
+.tool-card {
+    min-height: 180px;
+
+    padding: 24px;
+
+    border-bottom: 1px solid var(--border);
+    border-right: 1px solid var(--border);
+}
+
+.tool-card:first-child {
+    border-left: 1px solid var(--border);
+}
+
+.tool-index {
+    color: var(--blue);
+
+    font-family: var(--font-tech);
+    font-size: 9px;
+    letter-spacing: 0.7px;
+}
+
+.tool-content {
+    margin-top: 50px;
+}
+
+.tool-content h3 {
+    color: var(--text);
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tool-content p {
+    margin-top: 9px;
+
+    color: var(--text-secondary);
+
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   PROGRAMMING
+========================================= */
+
+.programming-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    border-top: 1px solid var(--border);
+}
+
+.programming-item {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    min-height: 95px;
+
+    padding: 20px;
+
+    border-bottom: 1px solid var(--border);
+}
+
+.programming-item:first-child {
+    border-right: 1px solid var(--border);
+}
+
+.programming-item span {
+    color: var(--text-secondary);
+
+    font-family: var(--font-tech);
+    font-size: 8px;
+}
+
+.programming-item strong {
+    color: var(--text);
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.programming-item small {
+    color: var(--text-secondary);
+
+    font-family: var(--font-tech);
+    font-size: 8px;
+    letter-spacing: 0.8px;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 750px) {
+
+    .skills-hero {
+        padding: 90px 0 70px;
+    }
+
+    .skills-title {
+        font-size: 65px;
+        letter-spacing: -4px;
+    }
+
+    .skills-introduction {
+        font-size: 15px;
+    }
+
+    .skills-section {
+        padding: 80px 0 100px;
+    }
+
+    .skill-category {
+        padding-bottom: 75px;
+        margin-bottom: 75px;
+    }
+
+    .skill-category-header {
+        grid-template-columns: 35px minmax(0, 1fr);
+        gap: 15px;
+    }
+
+    .skill-category-header h2 {
+        font-size: 34px;
+        letter-spacing: -1.5px;
+    }
+
+    .skill-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-item,
+    .skill-item:nth-child(even) {
+        padding-left: 0;
+        border-left: none;
+    }
+
+    .skill-tools {
+        grid-template-columns: 1fr;
+    }
+
+    .tool-card,
+    .tool-card:first-child {
+        border-left: 1px solid var(--border);
+        border-right: 1px solid var(--border);
+    }
+
+    .tool-content {
+        margin-top: 35px;
+    }
+
+    .programming-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .programming-item:first-child {
+        border-right: none;
+    }
+
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.skill-icon {
+    width: 22px;
+    flex-shrink: 0;
+
+    font-size: 16px;
+    line-height: 1;
+}
+
+.tool-icon {
+    margin-bottom: 12px;
+
+    font-size: 20px;
+    line-height: 1;
+}
+
+.programming-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.programming-icon {
+    font-size: 18px;
+    line-height: 1;
+}
