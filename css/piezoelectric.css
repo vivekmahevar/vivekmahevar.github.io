@@ -1,0 +1,679 @@
+/* =========================================
+   PIEZOELECTRIC MAJOR PROJECT
+========================================= */
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.piezo-hero {
+    padding-bottom: 90px;
+}
+
+.piezo-project-number {
+    margin-bottom: 18px;
+    color: var(--blue);
+    font-family: var(--font-tech);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+}
+
+.piezo-hero-subtitle {
+    margin-top: 20px;
+    color: var(--blue);
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.piezo-hero-result {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 850px;
+    margin-top: 55px;
+}
+
+.piezo-hero-result > div {
+    padding: 24px 28px;
+    border-left: 2px solid var(--blue);
+    background: var(--surface);
+}
+
+.piezo-hero-result span,
+.piezo-result-highlight span,
+.piezo-voltage-highlight span,
+.piezo-final-statement span {
+    display: block;
+    color: var(--blue);
+    font-family: var(--font-tech);
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+}
+
+.piezo-hero-result strong {
+    display: block;
+    margin-top: 10px;
+    color: var(--text);
+    font-size: 19px;
+}
+
+
+/* =========================================
+   MATERIAL GRID
+========================================= */
+
+.piezo-material-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 42px;
+    border-top: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+}
+
+.piezo-material-grid > div {
+    min-height: 115px;
+    padding: 22px;
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.piezo-material-grid span,
+.piezo-material-detail-grid span,
+.piezo-dimension-grid span,
+.piezo-condition-grid span,
+.piezo-fea-specs span,
+.piezo-tools-grid span,
+.piezo-future-grid span,
+.piezo-frequency-grid span {
+    display: block;
+    color: var(--blue);
+    font-family: var(--font-tech);
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.piezo-material-grid strong {
+    display: block;
+    margin-top: 11px;
+    color: var(--text);
+    font-size: 17px;
+}
+
+.piezo-material-grid small {
+    display: block;
+    margin-top: 7px;
+    color: var(--text-secondary);
+    font-size: 10px;
+}
+
+
+/* =========================================
+   DIMENSIONS
+========================================= */
+
+.piezo-dimension-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 42px;
+    border-top: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+}
+
+.piezo-dimension-grid > div,
+.piezo-condition-grid > div,
+.piezo-fea-specs > div {
+    min-height: 95px;
+    padding: 23px;
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.piezo-dimension-grid strong,
+.piezo-condition-grid strong,
+.piezo-fea-specs strong {
+    display: block;
+    margin-top: 10px;
+    color: var(--text);
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.piezo-note {
+    margin-top: 30px !important;
+    padding-left: 20px;
+    border-left: 2px solid var(--blue);
+    font-size: 13px !important;
+}
+
+
+/* =========================================
+   SANDWICH LAYERS
+========================================= */
+
+.piezo-layer-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin-top: 42px;
+}
+
+.piezo-layer-block {
+    padding: 28px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+}
+
+.piezo-layer-block span {
+    color: var(--blue);
+    font-family: var(--font-tech);
+    font-size: 9px;
+}
+
+.piezo-layer-block strong {
+    display: block;
+    margin-top: 18px;
+    color: var(--text);
+    font-size: 17px;
+}
+
+.piezo-layer-block small {
+    display: block;
+    margin-top: 10px;
+    color: var(--text-secondary);
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+.piezo-active {
+    border-top: 2px solid var(--blue);
+}
+
+
+/* =========================================
+   MATERIAL DETAILS
+========================================= */
+
+.piezo-material-detail-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+    margin-top: 42px;
+}
+
+.piezo-material-detail-grid > div {
+    padding: 25px;
+    border: 1px solid var(--border);
+}
+
+.piezo-material-detail-grid strong {
+    display: block;
+    margin-top: 12px;
+    color: var(--text);
+    font-size: 17px;
+}
+
+.piezo-material-detail-grid p {
+    margin-top: 12px !important;
+    font-size: 11px !important;
+    line-height: 1.7 !important;
+}
+
+
+/* =========================================
+   ANALYSIS FLOW
+========================================= */
+
+.piezo-analysis-flow {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin-top: 42px;
+}
+
+.piezo-analysis-flow > div {
+    padding: 28px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+}
+
+.piezo-analysis-flow span {
+    color: var(--blue);
+    font-family: var(--font-tech);
+    font-size: 10px;
+}
+
+.piezo-analysis-flow strong {
+    display: block;
+    margin-top: 16px;
+    color: var(--text);
+    font-size: 18px;
+}
+
+.piezo-analysis-flow p {
+    margin-top: 10px !important;
+    font-size: 12px !important;
+}
+
+
+/* =========================================
+   FEA SPECS
+========================================= */
+
+.piezo-fea-specs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 35px;
+    border-top: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+}
+
+
+/* =========================================
+   CONDITIONS
+========================================= */
+
+.piezo-condition-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 42px;
+    border-top: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+}
+
+
+/* =========================================
+   RESULT HIGHLIGHTS
+========================================= */
+
+.piezo-result-highlight,
+.piezo-voltage-highlight {
+    max-width: 620px;
+    margin-top: 42px;
+    padding: 30px;
+    border-left: 3px solid var(--blue);
+    background: var(--surface);
+}
+
+.piezo-result-highlight strong,
+.piezo-voltage-highlight strong {
+    display: block;
+    margin-top: 10px;
+    color: var(--text);
+    font-size: 32px;
+    letter-spacing: -1px;
+}
+
+.piezo-result-highlight small,
+.piezo-voltage-highlight small {
+    display: block;
+    margin-top: 7px;
+    color: var(--text-secondary);
+    font-family: var(--font-tech);
+    font-size: 9px;
+}
+
+
+/* =========================================
+   RESULT TABLE
+========================================= */
+
+.piezo-table-wrapper {
+    width: 100%;
+    margin-top: 42px;
+    overflow-x: auto;
+    border: 1px solid var(--border);
+}
+
+.piezo-result-table {
+    width: 100%;
+    min-width: 650px;
+    border-collapse: collapse;
+}
+
+.piezo-result-table th,
+.piezo-result-table td {
+    padding: 17px 18px;
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    text-align: left;
+}
+
+.piezo-result-table th {
+    color: var(--blue);
+    background: var(--surface);
+    font-family: var(--font-tech);
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.piezo-result-table td {
+    color: var(--text-secondary);
+    font-size: 11px;
+}
+
+.piezo-result-table td:first-child {
+    color: var(--text);
+    font-weight: 600;
+}
+
+.piezo-best-row td {
+    color: var(--text);
+    background: var(--surface);
+    font-weight: 600;
+}
+
+.piezo-voltage-row td {
+    color: var(--text);
+    background: var(--surface);
+}
+
+
+/* =========================================
+   FREQUENCY GRID
+========================================= */
+
+.piezo-frequency-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 42px;
+    border-top: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+}
+
+.piezo-frequency-grid > div {
+    min-height: 100px;
+    padding: 23px;
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.piezo-frequency-grid strong {
+    display: block;
+    margin-top: 12px;
+    color: var(--text);
+    font-size: 17px;
+}
+
+.piezo-best-card {
+    border-top: 2px solid var(--blue);
+}
+
+
+/* =========================================
+   DECISION GRID
+========================================= */
+
+.piezo-decision-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 42px;
+    border-top: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+}
+
+.piezo-decision-grid > div {
+    min-height: 150px;
+    padding: 25px;
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.piezo-decision-grid span {
+    color: var(--blue);
+    font-family: var(--font-tech);
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.piezo-decision-grid strong {
+    display: block;
+    margin-top: 13px;
+    color: var(--text);
+    font-size: 19px;
+}
+
+.piezo-decision-grid p {
+    margin-top: 10px !important;
+    font-size: 11px !important;
+}
+
+
+/* =========================================
+   CONCLUSION
+========================================= */
+
+.piezo-conclusion {
+    margin-top: 42px;
+    padding: 30px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+}
+
+.piezo-conclusion > span {
+    color: var(--blue);
+    font-family: var(--font-tech);
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.piezo-conclusion strong {
+    display: block;
+    max-width: 720px;
+    margin-top: 14px;
+    color: var(--text);
+    font-size: 22px;
+    line-height: 1.35;
+}
+
+.piezo-conclusion p {
+    margin-top: 14px !important;
+}
+
+
+/* =========================================
+   CONTRIBUTION
+========================================= */
+
+.piezo-contribution-list {
+    margin-top: 42px;
+    border-top: 1px solid var(--border);
+}
+
+.piezo-contribution-list > div {
+    display: grid;
+    grid-template-columns: 55px minmax(0, 1fr);
+    gap: 25px;
+    padding: 28px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.piezo-contribution-list > div > span {
+    color: var(--blue);
+    font-family: var(--font-tech);
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.piezo-contribution-list strong {
+    color: var(--text);
+    font-size: 19px;
+}
+
+.piezo-contribution-list p {
+    margin-top: 9px !important;
+    margin-bottom: 0 !important;
+}
+
+
+/* =========================================
+   TOOLS
+========================================= */
+
+.piezo-tools-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 42px;
+    border-top: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+}
+
+.piezo-tools-grid > div {
+    min-height: 145px;
+    padding: 25px;
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.piezo-tools-grid strong {
+    display: block;
+    margin-top: 12px;
+    color: var(--text);
+    font-size: 16px;
+}
+
+.piezo-tools-grid p {
+    margin-top: 10px !important;
+    font-size: 11px !important;
+}
+
+
+/* =========================================
+   FUTURE SCOPE
+========================================= */
+
+.piezo-future-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 42px;
+}
+
+.piezo-future-grid > div {
+    padding: 27px;
+    border: 1px solid var(--border);
+}
+
+.piezo-future-grid strong {
+    display: block;
+    margin-top: 12px;
+    color: var(--text);
+    font-size: 18px;
+}
+
+.piezo-future-grid p {
+    margin-top: 9px !important;
+    font-size: 12px !important;
+}
+
+
+/* =========================================
+   DOCUMENTATION
+========================================= */
+
+.piezo-document-note {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 700px;
+    margin-top: 42px;
+    padding: 25px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+}
+
+.piezo-document-note > i {
+    color: var(--blue);
+    font-size: 27px;
+}
+
+.piezo-document-note strong {
+    color: var(--text);
+    font-size: 16px;
+}
+
+.piezo-document-note p {
+    margin-top: 7px !important;
+    margin-bottom: 0 !important;
+    font-size: 11px !important;
+}
+
+
+/* =========================================
+   FINAL STATEMENT
+========================================= */
+
+.piezo-final-statement {
+    max-width: 780px;
+    margin-top: 42px;
+    padding: 30px;
+    border-left: 3px solid var(--blue);
+    background: var(--background);
+}
+
+.piezo-final-statement strong {
+    display: block;
+    margin-top: 13px;
+    color: var(--text);
+    font-size: 21px;
+    line-height: 1.45;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 750px) {
+
+    .piezo-hero {
+        padding-bottom: 75px;
+    }
+
+    .piezo-hero-subtitle {
+        font-size: 19px;
+    }
+
+    .piezo-hero-result {
+        grid-template-columns: 1fr;
+    }
+
+    .piezo-material-grid,
+    .piezo-material-detail-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .piezo-dimension-grid,
+    .piezo-condition-grid,
+    .piezo-fea-specs,
+    .piezo-frequency-grid,
+    .piezo-decision-grid,
+    .piezo-tools-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .piezo-layer-layout,
+    .piezo-analysis-flow {
+        grid-template-columns: 1fr;
+    }
+
+    .piezo-future-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .piezo-conclusion strong {
+        font-size: 19px;
+    }
+
+    .piezo-result-highlight strong,
+    .piezo-voltage-highlight strong {
+        font-size: 28px;
+    }
+
+}

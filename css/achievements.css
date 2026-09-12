@@ -1,0 +1,236 @@
+/* =========================================
+   ACHIEVEMENTS PAGE
+========================================= */
+
+.achievements-container {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: auto;
+    padding-left: var(--page-padding);
+    padding-right: var(--page-padding);
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.achievements-hero {
+    padding: 110px 0 90px;
+    border-bottom: 1px solid var(--border);
+}
+
+.achievements-label {
+    margin-bottom: 28px;
+
+    color: var(--blue);
+
+    font-family: var(--font-tech);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.achievements-title {
+    color: var(--text);
+
+    font-size: clamp(64px, 9vw, 115px);
+    line-height: 0.92;
+    letter-spacing: -6px;
+    font-weight: 700;
+}
+
+.achievements-introduction {
+    max-width: 600px;
+
+    margin-top: 32px;
+
+    color: var(--text-secondary);
+
+    font-size: 16px;
+    line-height: 1.85;
+}
+
+
+/* =========================================
+   ACHIEVEMENT SECTION
+========================================= */
+
+.achievements-section {
+    padding: 100px 0 130px;
+}
+
+
+/* =========================================
+   LIST
+========================================= */
+
+.achievement-list {
+    width: 100%;
+}
+
+
+/* =========================================
+   ACHIEVEMENT ITEM
+========================================= */
+
+.achievement-item {
+    display: grid;
+    grid-template-columns: 55px 70px minmax(0, 1fr);
+
+    align-items: start;
+
+    min-height: 190px;
+
+    padding: 38px 0;
+
+    border-top: 1px solid var(--border);
+}
+
+.achievement-item:last-child {
+    border-bottom: 1px solid var(--border);
+}
+
+
+/* =========================================
+   NUMBER
+========================================= */
+
+.achievement-number {
+    padding-top: 5px;
+
+    color: var(--text-secondary);
+
+    font-family: var(--font-tech);
+    font-size: 9px;
+    letter-spacing: 0.8px;
+}
+
+
+/* =========================================
+   ICON
+========================================= */
+
+.achievement-icon {
+    padding-top: 0;
+
+    font-size: 28px;
+    line-height: 1;
+}
+
+
+/* =========================================
+   CONTENT
+========================================= */
+
+.achievement-content {
+    padding-left: 25px;
+}
+
+.achievement-label {
+    margin-bottom: 13px;
+
+    color: var(--blue);
+
+    font-family: var(--font-tech);
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+}
+
+.achievement-content h2 {
+    color: var(--text);
+
+    font-size: clamp(32px, 4vw, 50px);
+    line-height: 1;
+    letter-spacing: -2px;
+    font-weight: 700;
+}
+
+.achievement-content p {
+    max-width: 650px;
+
+    margin-top: 18px;
+
+    color: var(--text-secondary);
+
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+/* =========================================
+   FEATURED ACHIEVEMENT
+========================================= */
+
+.achievement-featured {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.achievement-featured .achievement-icon {
+    font-size: 34px;
+}
+
+.achievement-featured .achievement-content h2 {
+    font-size: clamp(40px, 5vw, 64px);
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 750px) {
+
+    .achievements-hero {
+        padding: 90px 0 70px;
+    }
+
+    .achievements-title {
+        font-size: 65px;
+        letter-spacing: -4px;
+    }
+
+    .achievements-introduction {
+        font-size: 15px;
+    }
+
+    .achievements-section {
+        padding: 80px 0 100px;
+    }
+
+    .achievement-item {
+        grid-template-columns: 35px 45px minmax(0, 1fr);
+
+        min-height: 160px;
+
+        padding: 30px 0;
+    }
+
+    .achievement-icon {
+        font-size: 22px;
+    }
+
+    .achievement-featured .achievement-icon {
+        font-size: 27px;
+    }
+
+    .achievement-content {
+        padding-left: 10px;
+    }
+
+    .achievement-content h2 {
+        font-size: 34px;
+        letter-spacing: -1.5px;
+    }
+
+    .achievement-featured .achievement-content h2 {
+        font-size: 40px;
+    }
+
+    .achievement-content p {
+        font-size: 13px;
+    }
+
+}
